@@ -1,0 +1,158 @@
+.scanchoix {
+    color: white;
+}
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-bottom: 23px;
+    margin-top: 13px;
+    font-size: 17px;
+}
+.scanchoix > .cont {
+    display: flex;
+    justify-content: space-between;
+}
+.scanchoix > .cont > .scan {
+    display: flex;
+    margin-left: 39px;
+    flex-direction: column;
+    width: 40%;
+}
+.scanchoix > .cont > .choix {
+    margin-right: 8%;
+    width: 40%;
+    margin-top: 49px;
+    padding-bottom: 20px;
+    height: 100%;
+    border-radius: 11px;
+    background: rgba(78, 76, 76, 0.555);
+}
+
+.scanchoix > .cont > .choix > div{
+    margin-left: 23%;
+}
+.scanchoix > .cont > .choix > .batimentaff {
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.scanchoix > .cont > .choix >  .classer {
+    margin-top: 4%;
+}
+.scanchoix > .cont > .choix >  .classer > div {
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+}
+.scanchoix > .cont > .choix >  .classer > div > .choice {
+    margin-right: 42%;
+    margin-bottom: 4%;
+}
+.increase > button  {
+    margin-left:5px ;
+    height: 30px;
+    background: none;
+    outline: none;
+    color: white;
+    border: none;
+}
+.scanchoix > .cont > .choix >.classer > .save {
+/*     
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end; */
+    width: 74%;
+    padding: 7px;
+}
+.scanchoix > .cont > .choix >.classer > .save > button {
+  border-radius: 10px;
+  padding: 3.5px;
+  outline: none;
+  margin-left: 74%;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.scanchoix > .cont > .choix >.classer > .save > button:hover {
+    cursor: pointer;
+    background: rgba(73, 72, 72, 0.274);
+    color: white;
+}
+.increase > button:hover {
+    cursor: pointer;
+}
+.increase > .controle {
+    height: 20px;
+    padding-bottom: 29px;
+}
+
+.scanchoix > .cont > .scan > .download {
+    margin-top: 9%;
+    margin-bottom: 9%;
+    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 9px ;
+}
+.scanchoix > .cont > .scan > .download> label >a {
+    margin-left: 10%;
+    height: 30%;
+}
+.scanchoix > .cont > .scan > .download> label > a > button {
+    margin-right: 192px;
+    height: 80%;
+    border-bottom: 10px;
+    outline: none;
+    border-radius: 11px;
+    background: rgba(128, 128, 128, 0.24);
+    color: white;
+}
+.scanchoix > .cont > .scan > .download> label > a > button:hover{
+    cursor: pointer;
+}
+.scanchoix > .cont > .scan > .containe > div > button:hover{
+    cursor: pointer;
+}
+.scanchoix > .cont > .scan > .containe {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(78, 76, 76, 0.555);
+    align-items: center;
+    width: 60%;
+    height: 40%;
+    padding: 5px;
+    border-radius: 9px;
+}
+.scanchoix > .cont > .scan > .containe > div > button {
+    border-radius: 11px;
+    outline: none;
+    background: rgba(128, 128, 128, 0.24);
+    color: white;
+}
+.scanchoix > .cont > .scan > .suivant{
+    margin-top: 54px;
+}
+.scanchoix > .cont > .scan > .suivant > button {
+    margin-left: 48%;
+    width: 14%;
+    padding: 3px;
+    outline: none;
+    border-radius: 11px;
+}
+.scanchoix > .cont > .scan {
+    padding-bottom: 5px;
+}
+.scanchoix > .cont {
+    padding-bottom: 90px;
+    margin-left: 60px;
+    
+}
+
+.scanchoix > .cont > .scan > .suivant > button:hover {
+    background: rgba(73, 72, 72, 0.274);
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.Etage{
+    padding: 10px;
+    margin-left: 1.5%;
+    margin-right: 9%;
+    background-color:rgb(100, 187, 187) ;
+    
+    width: 95% ;
+    height: 95%;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(60px, 1fr) );
+    grid-gap: 0.6em;
+
+
+}
+
+.numEtage{
+    padding-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;    
+}
+.chambre{
+    grid-area: chambre;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .Etage{
+
+        margin-left: 1.5%;
+        margin-right: 15%;
+
+        width: 93% ;
+        height: 95%;
+        
+    }
+  }

@@ -1,0 +1,119 @@
+
+.head > div > button , .right > button{
+    padding-left: 5px;
+    width: 93px;
+    border-radius: 9px ;
+    outline: none;
+    border: 0.5px solid gray;
+}
+.head > .edit {
+    margin-left: 50%;
+}
+.head > .lk {
+    margin-left: 4.4%;
+}
+.right > button{
+    margin-top: 80%;
+    outline: none;
+}
+.head > div > button:hover , .right > button:hover{
+    background: #ccf2f4;
+    cursor: pointer ;
+    box-shadow: 2px 2px 2px 0 gray;
+}
+.etat{
+    margin-top: 2%;
+    justify-content: center;
+    flex-direction: column; 
+    margin-left: 39%; 
+    width: 20%;
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.281); 
+}
+.etat > input {
+    margin-left: 10%;
+    margin-top: 4%;
+}
+.etat > input:hover {
+    cursor: pointer;
+}
+.etat > label {
+    margin-left: 4%;
+}
+.liberer {
+    width: 85%;
+    border-left: 0.5px solid gray;
+    height: 100vh;
+}
+/* the button edit on mobile :  */
+.editmobile {
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.editmobile > button {
+    padding-left: 1px;
+    margin-left:2px ;
+    width: 93px;
+    border-radius: 9px ;
+    outline: none;
+    border: 0.5px solid gray;
+}
+.editmobile > button:hover {
+    background: #ccf2f4;
+    cursor: pointer ;
+    box-shadow: 2px 2px 2px 0 gray;
+}
+
+@media only screen and (max-width: 800px) {
+    .head > .edit {
+        display: none;
+    }
+    .editmobile {
+        display: flex;
+    }
+  }
+/* container styling the demande of liberation  */
+.container  {
+    margin-right : 0% ;
+    margin-top: 1.5%;
+    padding-top: 15px;
+    border-top: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.left {
+    display: flex;
+    justify-content: space-between;
+}
+.left > .infos {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.left > .infos > p {
+    margin-top: 7px;
+}
+.left > .infos > #tel {
+    font-size: 14px;
+}
+.container > .left > p> img {
+    border-radius: 50%;
+    width: 83px;
+}
+.right {
+    display: flex;
+
+    flex-direction: column;
+    margin-left: 60%;
+}
+.right > .accederp {
+    width: 100%;
+    margin-top: 7%;
+}
+.telname {
+    margin: 0;
+}

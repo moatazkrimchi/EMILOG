@@ -1,0 +1,14 @@
+.search{
+    text-align: center;
+    position: relative;
+
+}
+
+.inputC{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 50%;
+    background-color:aliceblue ;
+    border-radius: 12px;
+}

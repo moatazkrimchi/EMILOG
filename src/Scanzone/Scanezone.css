@@ -1,0 +1,91 @@
+.name{
+    margin-left: 20px;
+}
+.downold-zone{
+    background-color: rgba(148, 133, 137, 0.884);
+    height: 250px;
+    display: flex;
+    border-radius: 11px;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 2px 1px gray;
+    margin-left: 27%;
+}
+hr{
+    width: 30%;
+}
+.titre-note{
+
+    height: 140px;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #fafafa;
+
+}
+
+.download{
+    display: inline-block;
+    padding: 10px ;
+    background-color: #16a1e7;
+    margin: 10px;
+    border-radius: 5px;
+    padding-right: 48px;
+    color: #fff;
+    width: 49%;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.download a{
+    outline: 0;
+    margin-right: 73px;
+    color: #fafafa;
+    text-decoration: none;
+}
+
+
+  .file-zone{
+    border-radius: 7px;
+    margin-top: 3%;
+    margin-left: 36%;
+    background-color: rgb(224, 230, 227);
+    height: 135px;
+    width:530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .file-zone > input {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-submit{
+    margin-top: 40px;
+    background-color: green;
+    outline: none;
+    padding: 5px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border-radius: 11px;
+    color: white;
+    cursor: pointer;
+
+  }
+  .out{
+    border-radius: 7px;
+
+    height: 45px;
+    width:400px;
+    margin-left: 40%;
+    margin-right: 40%;
+    display: flex;
+    margin-top: 45px;
+    justify-content: center;
+    border-color: transparent;
+  }

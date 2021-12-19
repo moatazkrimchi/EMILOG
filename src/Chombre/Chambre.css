@@ -1,0 +1,51 @@
+.ChambreComp{
+    position: relative;
+    height: 70px;    
+    width: 100%;
+    background-color: aquqa;
+    border-radius: 4px;
+    padding: 1px;
+}
+.head-chambre{
+    display: flex;
+}
+
+.NumChambre{
+    margin: 0 auto;
+    font-size: 80%;
+}
+
+
+.btnChombre {
+    border: none;
+    background-color:rgb(245, 245, 245);
+    cursor: pointer;
+    border: 1px solid ;
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 2.5px;
+    color: rgb(100, 187, 187);
+    font-size: 12px;
+    margin-right: 3px;
+    padding: 0px;
+  }
+  
+  /* On mouse-over */
+  .btn:hover {
+       background: rgb(214, 208, 208);
+    }
+
+.containerChombre{
+
+    display: flex;
+    height: 20px;
+    
+    
+}
+.radiobtn-modifier{
+   
+    height: 11px;
+    margin-top: 2px;
+}

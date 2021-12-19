@@ -1,0 +1,46 @@
+.affg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.affg > div {
+    margin-top: 50px;
+}
+.affg > div:nth-child(2){
+  width: 40%;
+}
+.affg > div:nth-child(3),.affg > div:nth-child(4){
+    width: 29.5%;
+    margin-right: 11%;
+}
+.affg > div:nth-child(2) > select{
+    margin-left: 80px;
+    width: 30%;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+    padding : 2px;
+    cursor: pointer;
+    background-color: transparent;
+}
+.affg > div:nth-child(3) > select{
+    margin-left: 80px;
+    width: 100%;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+    padding : 2px;
+    cursor: pointer;
+    background-color: transparent;
+
+}
+.affg > div:nth-child(4) > button{
+    margin-left: 80px;
+    width: 100%;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+    padding : 2px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}

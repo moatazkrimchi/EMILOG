@@ -1,0 +1,24 @@
+.CompBat{
+   
+    background-color:rgb(223, 223, 222);
+    margin-bottom: 30px;
+    border-radius: 10px;
+    width: 96%;
+
+    
+    
+
+}
+.nomBat{
+    text-align: center;
+}
+.espace{
+    height: 30px;
+}
+.Batiment{
+    
+
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(500px, 1fr) );
+    grid-gap: 0.6em;
+}

@@ -1,0 +1,16 @@
+.search{
+    text-align: center;
+    position: relative;
+
+}
+
+.inputC{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 100%;
+    background-color:aliceblue ;
+    border-style: 1px solid;
+    border-radius: 12px;
+
+}

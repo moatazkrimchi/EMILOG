@@ -1,0 +1,22 @@
+nav{
+  background-color: rgb(31, 26, 26);
+  width: 100%;
+  box-shadow: 2px 2px gray;
+}
+a{
+  text-decoration: none;
+  color: aliceblue;
+  margin-left: 129px;
+  cursor: pointer;
+}
+.padi{
+  background-color: aqua;
+}
+.logo{
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+

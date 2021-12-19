@@ -1,0 +1,14 @@
+.choisir > input{
+    width:100% ;
+    margin-top: 5%;
+    border-radius: 11px;
+    background-color: rgb(138, 221, 221);
+    color: white;    
+    border: 1px solid rgb(151, 143, 143);
+}
+.ba > div > input,.ba > div >, .ba  {
+   width: 100%;
+}
+#sign_up{
+    margin-left: 85px;
+}

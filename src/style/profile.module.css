@@ -1,0 +1,88 @@
+
+.profile{
+      width: 89%;
+      overflow-x: hidden;
+      border-left: 0.5px solid gray;
+      height: 100vh;
+      padding-right: 124px;
+}
+.profile > form {
+      display: flex;
+      justify-content: space-between;
+}
+.profile > form > button {
+      margin-bottom: 9px;
+      margin-left: 10px;
+}
+.container{
+     margin-top: 0%; 
+     width: 100%; 
+     margin-left: 10%;
+}
+.container > img {
+      border-radius: 50%;
+      width: 10%;
+}
+
+.edit {
+      width: 110px;
+      padding: 3px;
+      border-radius: 9px ;
+      background: gray;
+      outline: none ;
+      color: white;
+}
+.edit:hover {
+      background: #ccf2f4;
+      cursor: pointer ;
+      box-shadow: 2px 4px 2px 0 gray;
+      color: black;
+}
+.infos {
+      margin-left: 20%;
+      margin-top: 2%;
+      display: flex;
+      width: 48%;
+      background-color: rgba(49, 48, 48, 0.466);
+      padding: 11px;
+      border-radius: 6px;
+}
+.infos> button {
+      margin-right: 5px;
+}
+.infos >.enregistrer {
+     border: 1px solid red;
+}
+.infos > .inputs {
+      display: flex;
+      flex-direction: column;
+      margin-left: 72px;
+      padding-right: 8px;
+      width: 50%;
+}
+.infos > .inputs > label {
+      margin-top: 3px;
+      font-size: 14px;
+}
+.infos > .inputs > input{
+      border: none;
+      margin-top: 5.5px;
+      color: rgb(24, 21, 21);
+      width: 100%;
+
+}
+.infos > .inputs > input:focus {
+      border: none;
+      outline: none;
+}
+.infos > .labels,.inputs {
+      display: flex;
+      flex-direction: column;
+}
+/* @media only screen and (max-width: 800px) {
+      .edit {
+        background-color: lightblue;
+        margin-left: 50%;
+        margin-bottom: 56%;
+      }
+} */
