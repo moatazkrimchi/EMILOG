@@ -18,3 +18,7 @@ Et dans cette application, il y a même un algorithme d'affectation des étudian
 
 <br/>
 <strong>React JS, Express JS, Mysql</strong>
+
+
+## Exécution 
+![image](https://user-images.githubusercontent.com/74151613/151852208-46842501-6ff3-473d-a541-42cf70356d7e.png)
